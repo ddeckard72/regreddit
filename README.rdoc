@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/ddeckard72/regreddit.svg?branch=master)](http://travis-ci.org/ddeckard72/regreddit)
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
