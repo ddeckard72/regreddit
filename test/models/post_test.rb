@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
-	test "don't save an empty link"
+	test "don't save an empty post"
     post = Post.new
-    assert_not Post.save
+    assert_not post.save
 	end
 end
