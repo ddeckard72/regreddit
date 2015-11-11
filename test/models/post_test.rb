@@ -1,8 +1,8 @@
-require 'test_helper'
+require "test_helper"
 
 class PostTest < ActiveSupport::TestCase
-	test "don't save an empty post" do
+	test "comment without a user" do
     	post = Post.new
-    	assert_not post.save
+    	assert_not post.user.empty?
 	end
 end
