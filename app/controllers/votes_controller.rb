@@ -1,5 +1,5 @@
 class VotesController < ApplicationController
- ## TODO
+ ## require user to be logged in
   before_action :authenticate_user!, only: [:create]
 
   def up

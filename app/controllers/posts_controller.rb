@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+	#require user to be logged in
 	before_action :authenticate_user!, except: [:index, :show]
 
 	def new
